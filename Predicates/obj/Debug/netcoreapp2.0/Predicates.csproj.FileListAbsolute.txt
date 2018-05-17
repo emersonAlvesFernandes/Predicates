@@ -1,0 +1,8 @@
+C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predicates\bin\Debug\netcoreapp2.0\Predicates.deps.json
+C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predicates\bin\Debug\netcoreapp2.0\Predicates.runtimeconfig.json
+C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predicates\bin\Debug\netcoreapp2.0\Predicates.runtimeconfig.dev.json
+C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predicates\bin\Debug\netcoreapp2.0\Predicates.dll
+C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.csprojResolveAssemblyReference.cache
+C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.csproj.CoreCompileInputs.cache
+C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.AssemblyInfoInputs.cache
+C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.AssemblyInfo.cs
