@@ -1,15 +1,17 @@
-﻿using Predicates.Operators;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿
 
 namespace Predicates
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using static Predicates.PredicatesLang;
+    using static System.Console;
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
             
             var party = new Party();            
             var employees = new List<Employee>
@@ -18,14 +20,16 @@ namespace Predicates
                 new Employee(2, 25),
                 new Employee(3, 30),
                 new Employee(4, 35),
+                new Employee(5, 70),
+                new Employee(6, 73)
             };
 
-            party.Invite(employees.Where(
-                PredicatesLang.When<int, Employee>(e => e.Age)
-                .Is(new GreaterThan(20)
-                //.And(LessThan(70))
-                )
-            ));
+            var query = When<int, Employee>(e => e.Age).Is(GreaterThan(20).And(LessThan(70)));
+            party.Invite(employees.Where(query));
+
+
+            party.InvitationList.ForEach(i => WriteLine($"Id: {i.Id}; Age:{i.Age};"));
+            ReadKey();
         }
     }
 
@@ -44,11 +48,15 @@ namespace Predicates
 
     public class Party
     {
+        public Party()
+        {
+            InvitationList = new List<Employee>();
+        }
         public List<Employee> InvitationList { get; set; }
 
-        public void Invite(List<Employee> employees)
+        public void Invite(IEnumerable<Employee> employees)
         {
-            InvitationList.AddRange(employees);
+                InvitationList.AddRange(employees);
         }
     }
 }

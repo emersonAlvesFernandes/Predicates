@@ -5,6 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Reflection;
+using Predicates.Utilities;
 
 namespace Predicates
 {
@@ -12,11 +13,15 @@ namespace Predicates
     {
         public string PropertyPath { get; }
         public PredicateBase<T> Then { get; }
+        public string ParameterName { get; }
 
         public Map(Expression<Func<TB, T>> memberAccessExpression, PredicateBase<T> then)
         {
             Then = then;
             PropertyPath = memberAccessExpression.ToPropertyPath();
+            
+            // TODO: Adapt for expression with more than one parameter.
+            ParameterName = memberAccessExpression.Parameters.FirstOrDefault()?.Name;
         }
 
         [JsonConstructor]
@@ -30,7 +35,7 @@ namespace Predicates
         {
             var buildedThen = Then.Build();
 
-            var parameter = Expression.Parameter(typeof(TB), "e");
+            var parameter = Expression.Parameter(typeof(TB), ParameterName);
             var members = PropertyPath.Split('.');
 
             var mi = typeof(TB).GetMember(members[0]).First();
@@ -38,7 +43,7 @@ namespace Predicates
 
             for (var i = 1; i < members.Length; i++)
             {
-                mi = mi.GetMemberType().GetMember(members[i]).First();
+                mi = mi.GetType().GetMember(members[i]).First();
                 ma = Expression.MakeMemberAccess(ma, mi);
             }
 

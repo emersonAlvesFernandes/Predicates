@@ -702,33 +702,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emerson.santos\\.nuget\\packages\\": {},
+    "C:\\Users\\1544 IRON V4\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emerson.santos\\Documents\\Visual Studio 2017\\Projects\\Predicates\\Predicates\\Predicates.csproj",
+      "projectUniqueName": "D:\\dev\\RM\\Predicates\\Predicates\\Predicates.csproj",
       "projectName": "Predicates",
-      "projectPath": "C:\\Users\\emerson.santos\\Documents\\Visual Studio 2017\\Projects\\Predicates\\Predicates\\Predicates.csproj",
-      "packagesPath": "C:\\Users\\emerson.santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emerson.santos\\Documents\\Visual Studio 2017\\Projects\\Predicates\\Predicates\\obj\\",
+      "projectPath": "D:\\dev\\RM\\Predicates\\Predicates\\Predicates.csproj",
+      "packagesPath": "C:\\Users\\1544 IRON V4\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\RM\\Predicates\\Predicates\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\emerson.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\1544 IRON V4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://wqvap85:8081/repository/Einstein-Nuget/": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.nuget.org/api/v2": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

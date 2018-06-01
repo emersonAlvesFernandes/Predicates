@@ -6,3 +6,14 @@ C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predica
 C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.csproj.CoreCompileInputs.cache
 C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.AssemblyInfoInputs.cache
 C:\Users\emerson.santos\Documents\Visual Studio 2017\Projects\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.AssemblyInfo.cs
+D:\dev\RM\Predicates\Predicates\bin\Debug\netcoreapp2.0\Predicates.deps.json
+D:\dev\RM\Predicates\Predicates\bin\Debug\netcoreapp2.0\Predicates.runtimeconfig.json
+D:\dev\RM\Predicates\Predicates\bin\Debug\netcoreapp2.0\Predicates.runtimeconfig.dev.json
+D:\dev\RM\Predicates\Predicates\bin\Debug\netcoreapp2.0\Predicates.dll
+D:\dev\RM\Predicates\Predicates\bin\Debug\netcoreapp2.0\Predicates.pdb
+D:\dev\RM\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.csprojResolveAssemblyReference.cache
+D:\dev\RM\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.csproj.CoreCompileInputs.cache
+D:\dev\RM\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.AssemblyInfoInputs.cache
+D:\dev\RM\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.AssemblyInfo.cs
+D:\dev\RM\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.dll
+D:\dev\RM\Predicates\Predicates\obj\Debug\netcoreapp2.0\Predicates.pdb
